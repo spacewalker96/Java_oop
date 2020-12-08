@@ -1,7 +1,7 @@
 public class Acount {
-    String nom;
-    String adresse;
-    double solde;
+    private String nom;
+    private String adresse;
+    private double solde;
     static void afficherInfosSolde(String nom,String adresse,double solde){
       System.out.println(nom +" habite à "+"(" + adresse+")"+"- infos solde "+ solde+" DH");
     }
